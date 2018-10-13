@@ -1,0 +1,55 @@
+body{
+    background-image:url("background.jpg");
+    font-family: Montserrat;
+    font-weight: 600;
+}
+.block{
+    display:block;
+}
+.hero{
+    /* background-image: url("isthisagif.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom; */
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+}
+.hero-overlay{
+    display: block;
+    position: absolute;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+.ground-blue{
+    opacity:0.6;
+}
+.social{
+    background-color:hsl(39, 55%, 46%);
+    box-shadow: 10px 5px black;
+    border-radius: 10%;
+}
+.headers{
+    font-family: sans-serif;
+    font-style: bold;
+}
+
+#contect{
+    background-color:rgb(135, 255, 251);
+    box-sizing: content-box;
+    border-radius: 85%;
+}
+.superx{
+    background-color:crimson;
+    box-sizing: content-box;
+    box-shadow: 15px 20px black;
+}
+#contect{
+    margin-top: 40px;
+}
